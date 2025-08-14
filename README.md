@@ -1,6 +1,7 @@
 # Audiodenoise on Colab
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/username/Audiodenoise_on_Colab/blob/main/audiodenoise_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Dao-you/your-repo/blob/main/example.ipynb)
+
 
 這個專案提供一個可以在 Google Colab 上執行的 AI 語音降噪筆記本，利用 GPU 加速並透過表單選項操作。
 
