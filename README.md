@@ -1,5 +1,7 @@
 # Audiodenoise on Colab
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/username/Audiodenoise_on_Colab/blob/main/audiodenoise_colab.ipynb)
+
 這個專案提供一個可以在 Google Colab 上執行的 AI 語音降噪筆記本，利用 GPU 加速並透過表單選項操作。
 
 ## 功能
@@ -13,9 +15,8 @@
 
 ## 使用方式
 
-1. 於 GitHub 或本地環境開啟 [audiodenoise_colab.ipynb](audiodenoise_colab.ipynb) 並連線至 Google Colab。
-2. 在第一個表單中安裝相依套件並掛載 Google Drive。
-3. 在第二個表單填入來源檔案或資料夾，以及輸出路徑；可選擇是否使用 GPU。若來源為資料夾，輸出路徑視為資料夾，會依序處理其中的影音檔案，並跳過已存在的輸出檔。
-4. 在第三個表單執行降噪，結果將儲存至指定的 Google Drive 路徑。
+1. 點擊上方 **Open in Colab** 按鈕開啟筆記本。
+2. 在唯一的表單中填寫來源檔案或資料夾，並選擇是否使用 GPU。
+3. 執行該 cell，授權掛載 Google Drive 後會自動安裝套件並開始降噪。處理完成的檔案將以 `*_denoised.wav` 儲存在原始位置。
 
 輸出檔案格式為單聲道 WAV，取樣率 16 kHz。
