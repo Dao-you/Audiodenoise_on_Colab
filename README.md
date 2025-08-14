@@ -5,6 +5,7 @@
 ## 功能
 
 - 使用 [SpeechBrain](https://github.com/speechbrain/speechbrain) 的 MetricGAN+ 模型進行語音降噪。
+- 可切換使用 [Facebook Denoiser](https://github.com/facebookresearch/denoiser) 的 DNS64 模型，適合 T4 等具備 15GB VRAM 的 GPU。
 - 從 Google Drive 讀取影片或聲音檔案，輸出為 WAV 音訊檔。
 - 掛載 Google Drive，支援 GPU 推論。
 - 利用 Colab 表單輸入路徑與設定，操作簡單。
@@ -14,7 +15,7 @@
 ## 使用方式
 
 1. 點擊上方 **Open in Colab** 按鈕開啟筆記本。
-2. 在唯一的表單中填寫來源檔案或資料夾，並選擇是否使用 GPU。
+2. 在唯一的表單中填寫來源檔案或資料夾，並選擇是否使用 GPU 與模型種類。
 3. 執行該 cell，授權掛載 Google Drive 後會自動安裝套件並開始降噪。處理完成的檔案將以 `*_denoised.wav` 儲存在原始位置。
 
 輸出檔案格式為單聲道 WAV，取樣率 16 kHz。
