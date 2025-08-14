@@ -10,6 +10,7 @@
 - 利用 Colab 表單輸入路徑與設定，操作簡單。
 - 可指定整個資料夾進行批次處理，已存在的輸出檔案會被跳過。
 
+
 ## 使用方式
 
 1. 於 GitHub 或本地環境開啟 [audiodenoise_colab.ipynb](audiodenoise_colab.ipynb) 並連線至 Google Colab。
